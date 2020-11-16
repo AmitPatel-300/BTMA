@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="BTMA.css">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	 
+	<title>BTMA</title>
+</head>
+<body class="bg-secondary">
+	<div class="container text-center"> 
+	<header class="text-white mt-4  h1">Basic Task Management Application</header>
+	</div>
+	<form>
+		<label for="task" class="COLOR h4">Add Task</label>
+		<input type="text" id="task"  required>
+	    <input type="button"  class='btn btn-primary' id="btn" value="Add task" onclick="add()">
+	</form>
+	<label class="text text-warning font-weight-bold h3" id="todo"> To do</label>
+	<table id="dis"></table> 
+
+	<label class="text text-success font-weight-bold h3" id="completed"> Completed task</label>
+	<table id="dis2"></table> 
+	<script src="BTMA.js"></script>
+</body>
+</html>

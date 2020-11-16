@@ -1,0 +1,30 @@
+label{
+	margin: 40px 0 0 100px;
+}
+input[type=text]{
+	width: 400px;
+	margin-left: 30px;
+	align-items: center;
+}
+input[type="checkbox"]{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+input[type=button]{
+	width: 100px;
+	margin: 10px;
+}
+#todo {
+	display: none;
+}
+#completed {
+	display: none;
+}
+table{
+	border: 1px solid gray;
+	margin-left: 100px;
+}
+.COLOR{
+	color: yellow;
+}
